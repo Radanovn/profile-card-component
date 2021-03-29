@@ -2,12 +2,11 @@
 <html>
 <head>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Simple card</title>
 </head>
 <body>
-    <img class="img-top" src="./assets/images/bg-pattern-top.svg">
-    <img class="img-bottom" src="./assets/images/bg-pattern-bottom.svg">
-
     <div class="container">
         <div class="card">
             <div class="card-header">

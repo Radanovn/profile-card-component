@@ -1,6 +1,22 @@
+@font-face {
+    font-family: Kumbh;
+    src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+    font-weight: bold;
+}
+
+.form-all * {
+    font-family: 'Kumbh+Sans', sans-serif;
+}
+
 body {
     font-size: 18px;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-top.svg");
+
     background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    background-position: bottom 0vh right 47vw, top 50vh left 60vw;
+
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .img-top {
@@ -30,15 +46,11 @@ body {
     background: white;
     width: 400px;
     height: 100%;
-    position: relative;
-    bottom: 600px;
-    display: inline-block;
 }
 
 .card img {
     border-radius: 50%;
 }
-
 
 .muted {
     opacity: 0.5;
@@ -54,7 +66,11 @@ body {
     font-weight: bold;
 }
 
-.socials p .muted{
+.socials p .muted {
     font-weight: normal;
 
+}
+
+.text h4 {
+    margin-bottom: 10px;
 }
