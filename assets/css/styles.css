@@ -45,7 +45,8 @@ body {
     border-radius: 1.5rem;
     background: white;
     width: 400px;
-    height: 100%;
+    position: absolute;
+    top: 30%;
 }
 
 .card img {
