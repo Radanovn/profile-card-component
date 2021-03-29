@@ -1,14 +1,60 @@
-body{
+body {
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
 }
 
-
 .img-top {
     transform: translateX(-40%) translateY(-20%);
-
 }
 
 .img-bottom {
     transform: translateX(50%) translateY(40%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-header {
+    background: url("../images/bg-pattern-card.svg");
+    border-radius: 1.5rem 1.5rem 0 0;
+    min-height: 9rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 1.5rem;
+    background: white;
+    width: 400px;
+    height: 100%;
+    position: relative;
+    bottom: 600px;
+    display: inline-block;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+
+.muted {
+    opacity: 0.5;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials p {
+    margin: 25px;
+    font-weight: bold;
+}
+
+.socials p .muted{
+    font-weight: normal;
+
 }
