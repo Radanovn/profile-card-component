@@ -17,6 +17,7 @@ body {
     background-position: bottom 0vh right 47vw, top 50vh left 60vw;
 
     font-family: 'Kumbh Sans', sans-serif;
+    line-height: 25px;
 }
 
 .img-top {
@@ -38,23 +39,28 @@ body {
     background: url("../images/bg-pattern-card.svg");
     border-radius: 1.5rem 1.5rem 0 0;
     min-height: 9rem;
+    background-repeat: no-repeat;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     border-radius: 1.5rem;
     background: white;
-    width: 400px;
     position: absolute;
     top: 30%;
 }
 
 .card img {
     border-radius: 50%;
+    bottom: 58px;
+    position: relative;
+    border: 5px solid white;
 }
 
 .muted {
     opacity: 0.5;
+    font-weight: normal;
+    margin: 5px;
 }
 
 .socials {
@@ -72,6 +78,6 @@ body {
 
 }
 
-.text h4 {
-    margin-bottom: 10px;
+.card-body h4 {
+    margin: 0 0 5px 0;;
 }

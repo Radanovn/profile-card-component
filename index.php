@@ -14,15 +14,15 @@
             </div>
             <img src="./assets/images/image-victor.jpg">
 
-            <div class="text">
+            <div class="card-body">
                 <h4><b>Victor Crest</b> <span class="muted">26</span></h4>
                 <small class="muted">London</small>
 
                 <hr>
                 <div class="socials">
-                    <p>80K<span class="muted"><br>Followers</span></p>
-                    <p>803K <span class="muted"><br>Likes</span></p>
-                    <p>1.4K<span class="muted"><br>Photos</span></p>
+                    <p>80K<small class="muted"><br>Followers</small></p>
+                    <p>803K <small class="muted"><br>Likes</small></p>
+                    <p>1.4K<small class="muted"><br>Photos</small></p>
                 </div>
             </div>
         </div>
